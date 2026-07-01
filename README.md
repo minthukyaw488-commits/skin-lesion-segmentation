@@ -165,4 +165,3 @@ skin-lesion-segmentation/
 
 **NOVEM (MIN THU KYAW)**
 Medical AI · Konyang University, Daejeon, South Korea
-GitHub: [minthukyaw488-commits](https://github.com/minthukyaw488-commits)
