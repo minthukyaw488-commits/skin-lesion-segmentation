@@ -1,0 +1,6 @@
+data/
+results/*.pth
+__pycache__/
+*.pyc
+.DS_Store
+*.zip
