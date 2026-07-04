@@ -124,10 +124,18 @@ For GPU training (recommended), use the included Kaggle notebook — trains 30 e
 
 ```bash
 cd src
-python evaluate.py --checkpoint results/best_model.pth
+python evaluate.py --checkpoint ../results/best_model.pth
 ```
 
 Generates `results/overlay_grid.png` with side-by-side visual comparisons.
+
+## Demo
+
+```bash
+python app.py
+```
+
+Launches a Gradio web UI: upload a dermoscopic image to get the predicted lesion mask and a green overlay at the original resolution, with an adjustable probability threshold. The app loads `results/best_model.pth` if present — train first (or download a trained checkpoint) to get real predictions.
 
 ---
 
