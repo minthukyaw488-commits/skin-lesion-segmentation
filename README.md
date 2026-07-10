@@ -8,9 +8,10 @@
 
 | Metric | Value |
 |--------|-------|
-| **Best Val Dice (DSC)** | **0.7804** |
-| **Best Val IoU (Jaccard)** | **0.7257** |
-| Epochs trained | 10 |
+| **Best Val Dice (DSC)** | **0.8902** |
+| **Best Val IoU (Jaccard)** | **0.8044** |
+| Epochs trained | 30 |
+| Encoder | ResNet34 (pretrained ImageNet) |
 | Training platform | Kaggle (T4 GPU) |
 
 ### Training Curves
@@ -34,7 +35,12 @@ Most predictions closely follow the ground truth boundary. The model handles var
 
 ---
 
-## Architecture: U-Net
+## Architecture: U-Net + ResNet34
+
+**Why ResNet34?** Using a pretrained ResNet34 encoder means the model already 
+knows edges, textures, and shapes from ImageNet — it only needs to learn 
+medical-specific patterns on top. This is why it scores significantly higher 
+than a scratch-trained U-Net (0.89 vs 0.78).
 
 ```
 Input (3 × 256 × 256)
