@@ -250,4 +250,3 @@ https://doi.org/10.1038/sdata.2018.161
 
 **NOVEM (MIN THU KYAW)**  
 Medical AI · Konyang University, Daejeon, South Korea  
-GitHub: [minthukyaw488-commits](https://github.com/minthukyaw488-commits)
