@@ -248,5 +248,4 @@ https://doi.org/10.1038/sdata.2018.161
 
 ## Author
 
-**NOVEM (MIN THU KYAW)**  
-Medical AI · Konyang University, Daejeon, South Korea  
+**NOVEM (Min Thu Kyaw)** — Medical AI Student, Konyang University
